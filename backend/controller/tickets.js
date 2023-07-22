@@ -77,7 +77,7 @@ const getAuthorisation = async () => {
       "clientSecret": "YOUR_CLIENT_SECRET",
       "ownerName": "Aman tiwari",
       "ownerEmail": "2020543479.aman@ug.sharda.ac.in",
-      "rollNo": "200101047"
+      "rollNo": "2020543479"
     };
 
     const response = await axios.post("http://20.244.56.144/train/auth", param);

@@ -70,11 +70,6 @@ app.get('/trains', async (req, res) => {
 
 // Process and Filter Train Data Function
 function processAndFilterTrains(trainsData) {
-  // Your implementation to process and filter the train data goes here.
-  // Implement the logic to extract trains departing in the next 12 hours,
-  // excluding those departing in the next 30 minutes.
-  // Sort the trains based on price (ascending), ticket availability (descending),
-  // and departure time (considering delays).
 
   // Sample implementation:
   return trainsData.filter(train => train.departureTime > Date.now());

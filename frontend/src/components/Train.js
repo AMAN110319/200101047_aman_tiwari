@@ -1,5 +1,5 @@
 import React from "react";
-
+import './train.css';
 const Train = (props) => {
     const trainName = props.props.trainName;
     const trainNumber = props.props.trainNumber;
@@ -16,7 +16,7 @@ const Train = (props) => {
     const delayed =props.props.delayedBy;
   return (
     <>
-      <div className="card w-75">
+      <div className="card-container w-75 ">
         <div className="card-body">
           <h4 className="card-title">Train Name:{trainName}</h4>
           <p className="card-text">

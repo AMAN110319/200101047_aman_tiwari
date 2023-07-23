@@ -13,7 +13,7 @@ const Search = () => {
     };
   return (
     <>
-    <div className="input-group">
+    <div className="input-group w-50" style={{margin:"20px auto"}}>
         <input
             type="search"
             className="form-control rounded"

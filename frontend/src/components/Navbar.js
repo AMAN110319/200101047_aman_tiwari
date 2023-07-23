@@ -1,9 +1,10 @@
 import React from "react";
 import {Link} from 'react-router-dom';
+import './navbar.css';
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-success">
         {/* Container wrapper */}
         <div className="container-fluid">
           <div

@@ -1,0 +1,17 @@
+.card-container{
+    margin: auto;
+    /* background-color: black;
+    color: white; */
+    text-align: center;
+    
+}
+.card-body{
+    border: 2px solid black;
+    border-radius:10px;
+    margin: 5px 0px;
+}
+.card-body:hover{
+    background-color: rgb(36, 72, 36);
+    color: white;
+    font-weight: bold;
+}
